@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Your CineBook movie ticket">
+  <title>CineBook | Digital Ticket</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="site-header no-print">
+    <div class="container nav-wrap">
+      <a href="index.html" class="logo">Cine<span>Book</span></a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#movies">Movies</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="ticket-page">
+    <div class="container">
+      <div class="page-title no-print centered">
+        <span class="eyebrow">BOOKING CONFIRMED</span>
+        <h1>Your digital ticket</h1>
+        <p>Keep this ticket ready at the cinema entrance.</p>
+      </div>
+
+      <article class="ticket-card" id="ticketCard">
+        <div class="ticket-main">
+          <div class="ticket-brand">
+            <span class="logo">Cine<span>Book</span></span>
+            <span class="ticket-status">CONFIRMED</span>
+          </div>
+          <div class="ticket-movie">
+            <div>
+              <span class="eyebrow">MOVIE</span>
+              <h2 id="ticketMovie">Movie Name</h2>
+              <p id="ticketMeta">Genre • Duration • Rating</p>
+            </div>
+            <div class="ticket-price" id="ticketPrice">₹0</div>
+          </div>
+          <div class="ticket-details">
+            <div><span>BOOKING ID</span><strong id="ticketId">CB000000</strong></div>
+            <div><span>DATE</span><strong id="ticketDate">-</strong></div>
+            <div><span>SHOW</span><strong id="ticketTime">-</strong></div>
+            <div><span>SEATS</span><strong id="ticketSeats">-</strong></div>
+            <div><span>THEATRE</span><strong id="ticketTheatre">-</strong></div>
+            <div><span>CITY</span><strong id="ticketCity">-</strong></div>
+          </div>
+        </div>
+        <div class="ticket-stub">
+          <div class="fake-qr" id="fakeQr" aria-label="Demo QR code"></div>
+          <p>Scan at entrance</p>
+        </div>
+      </article>
+
+      <div class="ticket-actions no-print">
+        <button class="btn btn-primary" onclick="window.print()">Print Ticket</button>
+        <a class="btn btn-secondary" href="index.html">Book Another Movie</a>
+      </div>
+
+      <p class="demo-note no-print">Demo project: this ticket is generated locally in your browser. No real payment has been processed.</p>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+  <script src="js/ticket.js"></script>
+</body>
+</html>
