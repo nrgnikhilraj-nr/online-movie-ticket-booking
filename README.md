@@ -113,47 +113,7 @@ online-movie-ticket-booking/
 3. Right-click `index.html`.
 4. Select **Open with Live Server**.
 
-## GitHub Deployment
 
-### Step 1 — Create a repository
-
-Create a new repository on GitHub, for example:
-
-`online-movie-ticket-booking`
-
-### Step 2 — Upload the project
-
-Upload all files and folders while keeping the structure unchanged.
-
-### Step 3 — Enable GitHub Pages
-
-Open:
-
-`Repository → Settings → Pages`
-
-Under **Build and deployment**:
-- Source: Deploy from a branch
-- Branch: `main`
-- Folder: `/ (root)`
-
-Click **Save**.
-
-After GitHub finishes deployment, the website will be available at:
-
-`https://YOUR-USERNAME.github.io/online-movie-ticket-booking/`
-
-Replace `YOUR-USERNAME` with your GitHub username.
-
-## Git Command Method
-
-```bash
-git init
-git add .
-git commit -m "Initial commit - CineBook movie booking system"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/online-movie-ticket-booking.git
-git push -u origin main
-```
 
 ## Important Note
 
@@ -176,30 +136,4 @@ A full production version could add:
 - QR-code verification
 - Cloud deployment
 
-## Academic Use
 
-Suggested project title:
-
-**ONLINE MOVIE TICKET BOOKING SYSTEM**
-
-Suggested domain:
-
-**Web Development / Internet & Web Technologies**
-
-Suggested technologies:
-
-**HTML, CSS, JavaScript**
-
-## Author
-
-Student Name: __________________________
-
-Roll Number: ___________________________
-
-Course: B.Tech / BCA / MCA
-
-Department: Computer Science / IT
-
-College: _______________________________
-
-Academic Year: 2022–2026
